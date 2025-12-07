@@ -19,7 +19,7 @@ const Contact = () => {
                     <span className='text-cyan-400 ml-1.5'>Touch</span>
                 </h2>
                 <p className='text-gray-400 text-center max-w-2xl mx-auto mb-16'>Have a project in mind or want to collaborate? Let's talk!</p>
-                <div className='grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl' mx-auto>
+                <div className='grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto' >
                     {/* Contact Form  */}
                     <div>
                         <ContactForm/>
