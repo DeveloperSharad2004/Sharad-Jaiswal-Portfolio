@@ -2,7 +2,6 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { projects } from '../assets/assets'
 import ProjectCard from './ProjectCard'
-import { FaArrowRight } from 'react-icons/fa'
 
 const Projects = () => {
     return (
