@@ -24,7 +24,7 @@ const Hero = () => {
           </p>
           <div className='flex space-x-4'>
             <a href="#projects" className='px-6 py-3 border border-white bg-cyan-400 rounded-lg font-medium hover:bg-cyan-700 transition duration-300'>View Work</a>
-            <a href='/Resume.pdf' download="Sharad_Jaiswal_Resume.pdf" className='px-6 py-3 border border-cyan-400 rounded-lg font-medium hover:bg-cyan-700 transition decoration-cyan-400'>Download Resume</a>
+            <a href='/Sharad_Resume.pdf' download="Sharad_Resume.pdf" className='px-6 py-3 border border-cyan-400 rounded-lg font-medium hover:bg-cyan-700 transition decoration-cyan-400'>Download Resume</a>
           </div>
 
         </div>
