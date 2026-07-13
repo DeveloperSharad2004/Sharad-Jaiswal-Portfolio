@@ -64,6 +64,14 @@ export const skills = [
 
 
 export const projects = [
+   {
+    title: "CareerPilot AI",
+    description: "AI-powered MERN application that analyzes job descriptions, resume and self description to generate personalized interview strategies using Google Gemini AI.",
+    image: projectImg5,
+    tech: ["React.js", "SCSS", "JavaScript","Gemini API", "Node.js", "Express.js", "MongoDB"],
+    demo: "https://career-pilot-ai-eta-taupe.vercel.app/login",
+    code: "https://github.com/DeveloperSharad2004/CareerPilot-AI",
+  },
   {
     title: "Ai Virtual Assistant",
     description: "An AI-powered assistant that understands user input, performs actions, and offers efficient, automated assistance.",
@@ -95,14 +103,6 @@ export const projects = [
     tech: ["React.js", "Tailwind CSS"],
     demo: "https://dreamy-parfait-f3ea72.netlify.app/",
     code: "https://github.com/DeveloperSharad2004/Quiz-App",
-  },
-  {
-    title: "Expense Tracker",
-    description: "A simple expense tracker built with HTML, CSS, and JavaScript to record transactions, calculate balances, and manage daily spending.",
-    image: projectImg5,
-    tech: ["HTML", "CSS", "JavaScript"],
-    demo: "https://mellifluous-crisp-e6ad72.netlify.app/",
-    code: "https://github.com/DeveloperSharad2004/Expense-Tracker",
   },
   {
     title: "Netflix Clone",
