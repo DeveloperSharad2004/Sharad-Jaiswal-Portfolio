@@ -77,7 +77,7 @@ export const projects = [
     description: "An AI-powered assistant that understands user input, performs actions, and offers efficient, automated assistance.",
     image: projectImg1,
     tech: ["React.js", "Node.js", "MongoDB", "Express.js", "Gemini API", "Tailwind CSS"],
-    demo: "https://ai-voice-assistant-frontend-y1n9.onrender.com/signup",
+    demo: "https://ai-voice-assistant-woad.vercel.app/signup",
     code: "https://github.com/DeveloperSharad2004/Ai-Voice-Assistant",
   },
   {
