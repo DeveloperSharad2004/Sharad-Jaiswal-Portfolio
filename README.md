@@ -1,18 +1,152 @@
-# React + Vite
+# 🌐 Sharad-Jaiswal-Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and interactive developer portfolio built with **React.js**, **Tailwind CSS**, and **Framer Motion**. This portfolio showcases my skills, projects, resume, and contact information in a clean and user-friendly interface.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 **Portfolio:** https://sharad-jaiswal-portfolio.vercel.app/
 
-## React Compiler
+---
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## 📌 Features
 
-Note: This will impact Vite dev & build performances.
+- ✨ Modern and Responsive UI
+- 🎨 Beautiful design using Tailwind CSS
+- ⚡ Smooth animations with Framer Motion
+- 📱 Fully Mobile Responsive
+- 📂 Project Showcase with Live Demo & GitHub Links
+- 👨‍💻 About Me Section
+- 🛠️ Skills Section
+- 📄 Resume Download
+- 📬 Contact Form
+- 🌙 Clean and Interactive User Experience
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+### Frontend
+
+- React.js
+- Tailwind CSS
+- Framer Motion
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Vite
+
+---
+
+## 📁 Folder Structure
+
+```bash
+Sharad's Portfolio
+│
+├── public
+│   ├── logo.jpg
+│   └── Sharad_Resume.pdf
+│
+├── src
+│   ├── assets
+│   │   └── assets.js
+│   │
+│   ├── components
+│   │   ├── About.jsx
+│   │   ├── Contact.jsx
+│   │   ├── ContactForm.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── ProjectCard.jsx
+│   │   ├── Projects.jsx
+│   │   └── Skills.jsx
+│   │
+│   ├── pages
+│   │   └── Home.jsx
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## 💻 Installation
+
+### Clone the repository
+
+```bash
+git clone https://github.com/DeveloperSharad2004/Sharads-Portfolio.git
+```
+
+### Navigate to project
+
+```bash
+cd Sharads-Portfolio
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 📸 Sections Included
+
+- Home
+- About
+- Skills
+- Projects
+- Resume
+- Contact
+- Footer
+
+---
+
+## 📂 Featured Projects
+
+- 🤖 CareerPilot AI
+- 🎙️ AI Virtual Assistant
+- 🛒 MERN E-Commerce Website
+- 🎮 GTA Themed Website
+
+---
+
+## 📄 Resume
+
+You can download my latest resume directly from the portfolio.
+
+---
+
+## 📫 Contact
+
+**Sharad Jaiswal**
+
+📧 Email: sharadjais80@gmail.com
+
+💼 LinkedIn: https://www.linkedin.com/in/sharad-jaiswal-02200a280/
+
+🐙 GitHub: https://github.com/DeveloperSharad2004
+
+🌐 Portfolio: https://sharad-jaiswal-portfolio.vercel.app/
+
+---
+
+## ⭐ Support
+
+If you like this project, please consider giving it a ⭐ on GitHub.
+
+---
