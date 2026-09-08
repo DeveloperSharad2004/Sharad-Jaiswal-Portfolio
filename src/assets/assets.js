@@ -10,27 +10,27 @@ import projectImg6 from '../assets/project6.png';
 
 
 export const assets = {
-    profileImg,
+  profileImg,
 }
 
 
 export const aboutInfo = [
-    {
-      icon: FaLightbulb,
-      title: 'Innovative',
-      description: 'I love creating unique solutions to complex problems with cutting-edge technologies.'
-    },
-    {
-      icon: FaPaintBrush,
-      title: 'Design Oriented',
-      description: 'Beautiful design and user experience are at the heart of everything I create.'
-    },
-    {
-      icon: FaCode,
-      title: 'Clean Code',
-      description: 'I write maintainable, efficient code following best practices and modern patterns.'
-    }
-  ];
+  {
+    icon: FaLightbulb,
+    title: 'Innovative',
+    description: 'I love creating unique solutions to complex problems with cutting-edge technologies.'
+  },
+  {
+    icon: FaPaintBrush,
+    title: 'Design Oriented',
+    description: 'Beautiful design and user experience are at the heart of everything I create.'
+  },
+  {
+    icon: FaCode,
+    title: 'Clean Code',
+    description: 'I write maintainable, efficient code following best practices and modern patterns.'
+  }
+];
 
 
 
@@ -57,18 +57,24 @@ export const skills = [
     title: 'Tools & Technologies',
     icon: FaTools,
     description: 'Essential tools and technologies I use in my development workflow.',
-    tags: ['Git & GitHub', 'VS Code', 'MS Excel', 'MS Word', 'Postman','EmailJS']
+    tags: ['Git & GitHub', 'VS Code', 'MS Excel', 'MS Word', 'Postman', 'EmailJS']
+  },
+  {
+    title: 'Programming Languages',
+    icon: FaCode,
+    description: 'Programming languages I use for software development and problem solving.',
+    tags: ['JavaScript', 'Java', 'SQL']
   }
 ];
 
 
 
 export const projects = [
-   {
+  {
     title: "CareerPilot AI",
     description: "AI-powered MERN application that analyzes job descriptions, resume and self description to generate personalized interview strategies using Google Gemini AI.",
     image: projectImg5,
-    tech: ["React.js", "SCSS", "JavaScript","Gemini API", "Node.js", "Express.js", "MongoDB"],
+    tech: ["React.js", "SCSS", "JavaScript", "Gemini API", "Node.js", "Express.js", "MongoDB"],
     demo: "https://career-pilot-ai-eta-taupe.vercel.app/login",
     code: "https://github.com/DeveloperSharad2004/CareerPilot-AI",
   },
