@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { FaEnvelope, FaGithub, FaLinkedin, FaMapMarkerAlt, FaPhone, FaYoutube } from 'react-icons/fa'
+import { SiLeetcode } from "react-icons/si";
 import ContactForm from './ContactForm'
 
 const Contact = () => {
@@ -22,13 +23,13 @@ const Contact = () => {
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto' >
                     {/* Contact Form  */}
                     <div>
-                        <ContactForm/>
+                        <ContactForm />
                     </div>
                     {/* Contact Information  */}
                     <div className='space-y-8'>
                         <div className='flex items-start'>
                             <div className='text-cyan-400 text-2xl mr-4'>
-                                <FaMapMarkerAlt/>
+                                <FaMapMarkerAlt />
                             </div>
                             <div>
                                 <h3 className='text-lg font-semibold mb-2'>Location</h3>
@@ -37,7 +38,7 @@ const Contact = () => {
                         </div>
                         <div className='flex items-start'>
                             <div className='text-cyan-400 text-2xl mr-4'>
-                                <FaEnvelope/>
+                                <FaEnvelope />
                             </div>
                             <div>
                                 <h3 className='text-lg font-semibold mb-2'>Email</h3>
@@ -46,7 +47,7 @@ const Contact = () => {
                         </div>
                         <div className='flex items-start'>
                             <div className='text-cyan-400 text-2xl mr-4'>
-                                <FaPhone/>
+                                <FaPhone />
                             </div>
                             <div>
                                 <h3 className='text-lg font-semibold mb-2'>Phone</h3>
@@ -57,13 +58,16 @@ const Contact = () => {
                             <h3 className='text-lg font-semibold mb-4'>Follow Me</h3>
                             <div className='flex space-x-4'>
                                 <a href="https://github.com/DeveloperSharad2004" className='w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-cyan-400 hover:bg-cyan-700 hover:border border-white hover:text-white duration-300 cursor-pointer'>
-                                    <FaGithub/>
+                                    <FaGithub />
                                 </a>
                                 <a href="https://www.linkedin.com/in/sharad-jaiswal-02200a280/" className='w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-cyan-400 hover:bg-cyan-700 hover:border border-white hover:text-white duration-300 cursor-pointer'>
-                                    <FaLinkedin/>
+                                    <FaLinkedin />
                                 </a>
                                 <a href="https://www.youtube.com/@Webtech09" className='w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-cyan-400 hover:bg-cyan-700 hover:border border-white hover:text-white duration-300 cursor-pointer'>
-                                    <FaYoutube/>
+                                    <FaYoutube />
+                                </a>
+                                <a href="https://leetcode.com/u/sharad808/" target="_blank" rel="noopener noreferrer" className='w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-cyan-400 hover:bg-cyan-700 hover:border border-white hover:text-white duration-300 cursor-pointer'>
+                                    <SiLeetcode />
                                 </a>
                             </div>
 
